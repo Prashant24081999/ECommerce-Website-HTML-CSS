@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: sticky;
+    top:0;
+}
+
+
+#hero-image{
+    width:600px;
+    height: 100vh;;
+}
+
+#hero-content{
+    position: relative;
+    top:100px;
+}
+
+.hero-button {
+    background-color: aliceblue;
+    color: green;
+    margin-top: 20px;
+    padding: 20px;
+    font-size:20px;
+    font-weight: 700;
+    color:black
+}
+
+.pro-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin:80px 50px;
+}
+
+.product-cart {
+    width:280px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    padding: 12px 30px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 20px;
+    margin:18px;
+    background-color: rgb(255, 255, 255);
+}
+
+.product-cart span{
+    color:gray;
+}
+
+.stars {
+    color: gold;
+}
+
+.product-cart .price{
+    color: teal;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#off-banner{
+    background-image: url(images/b2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height:240px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banners{
+    margin: 0 50px;
+}
+
+#banners h2,h4,span{
+    color:rgb(248, 248, 248)
+}
+
+#banners .big-banners{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banners .big-banners div{
+    min-width: 500px;
+    margin: 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+    backdrop-filter: blur(8%);
+}
+
+#banners .big-banner-1{
+    background-image: url(images/b17.jpg);
+}
+
+#banners .big-banner-2{
+    background-image: url(images/b18.jpg);
+}
+
+#banners .small-banner-1{
+    background-image: url(images/b20.jpg);
+}
+
+#banners .small-banner-2{
+    background-image: url(images/b16.jpg);
+}
+
+#banners .small-banner-3{
+    background-image: url(images/b19.jpg);
+}
+
+#banners .big-banners button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(248, 248, 248);
+    border: 1px solid rgb(248, 248, 248);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#banners .big-banners div:hover button{
+    background-color:aquamarine;
+    border: 1px solid aquamarine;
+}
+
+#banners .small-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banners .small-banners div{
+    min-width: 370px;
+    height:200px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 35px;
+    background-size: cover;
+    margin:15px;
+}
+
+#banners .small-banners h2{
+    color:maroon;
+}
+
+.off-banner2{
+    background-image: url(images/b14.png);
+    background-size: cover;
+    width: 100vw;
+    height: 180px;
+    margin-top: 25px;
+    background-color: indigo;
+    align-items: center;
+}
+
+.footer p{
+    color: gray;
+}
+
